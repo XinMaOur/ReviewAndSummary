@@ -41,7 +41,6 @@
     }
 
 ### 修改一个已经存在的用户角色 
-    db.changeUserPassword("hixxx", "yidiantong")
 
 #### 1.赋权
     > use admin
@@ -90,7 +89,7 @@
     }
 
 ### 修改已经存在用户的密码
-
+	db.changeUserPassword("hixxx", "yidiantong")
 ### 查看用户所扮演的所有角色
 #### 1.查看用户库中，hixxx所属数据库,扮演角色
     > use admin
